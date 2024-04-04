@@ -1,0 +1,33 @@
+* {
+  background-color: black;
+  color: white;
+  margin: 2%;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  background-color: gray;
+}
+
+.rainbow {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2.5%;
+}
+
+.rainbow > p {
+  text-align: center;
+  font-weight: bold;
+  height: 20vh;
+  width: 100px;
+}
