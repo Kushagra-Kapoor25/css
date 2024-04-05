@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 4%;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.container {
+  padding: 2%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  border-width: 5px;
+  border-style: dotted;
+}
+
+.chessboard {
+  display: grid;
+  width: 800px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.green {
+  background-color: darkgreen;
+  width: 100px;
+  height: 100px;
+}
+
+.white {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
